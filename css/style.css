@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+    
+  }
+  
+  .row{
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+  
+  h1 {
+    margin-bottom: 18px;
+    text-align: center;
+    color:black;
+    font-size: 50px;
+  }
+  
+  
+  .box.head{
+    width: 100%;
+    overflow: none;
+  }
+  
+  
+  .head{
+    position: initial;
+    overflow: none;
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    margin-right: 40px;
+    margin-top: 0px;
+    
+    
+  }
+  
+  .para1{
+    border: 2px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 25px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color:gray;
+    
+  }
+  .para2{
+    border: 2px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 25px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: gray;
+   
+  }
+  .para3{
+    border: 2px solid black;
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    color: black;
+    font-size: 25px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: gray;
+   
+  }
+  
+  .header1{
+      background-color:green ;
+
+     }
+  
+  .header2{
+      background-color: blue;
+
+
+  }
+  .header3{
+      background-color: indigo;
+
+  }
+  
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      margin-right: 90px;
+      width: 100%;
+    }
+    .head3{
+      margin-right: 75px;
+      width: 100px;
+    }
+  }
+  
+  @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .head{
+      margin-right: 53px;
+    }
+  }
